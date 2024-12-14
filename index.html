@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .main {
+            padding: 2rem;
+            text-align: center;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .project {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+        }
+        .project a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Welcome to my portfolio! Here you'll find details about me and my work.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="main">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm [Your Name], a passionate [Your Profession] with expertise in [Your Skills]. I love creating innovative solutions and working on exciting projects.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Descriptive Analysis</p>
+                    <a href="https://bollepas.github.io/cloud-computing-sahithi/" target="_blank">View</a>
+                    <p>Exploratory Analysis</p>
+                    <a href="https://bollepas.github.io/ucw-policies-exploratory/" target="_blank">View</a>
+                    <p>Data Wrangling</p>
+                    <a href="https://bollepas.github.io/ucw-policies-wrangling/" target="_blank">View</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Descriptive Analysis</p>
+                    <a href="https://bollepas.github.io/ucw-policies-descriptive/" target="_blank">View</a>
+                    <p>Exploratory Analysis</p>
+                    <a href="https://bollepas.github.io/cloud-computing-sahithi/" target="_blank">View</a>
+                    <p>Data Wrangling</p>
+                    <a href="https://bollepas.github.io/data-wrangling-sahithi/" target="_blank">View</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: +1 123 456 7890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
